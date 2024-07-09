@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <script type="text/javascript" src="https://livejs.com/live.js"></script> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Auto Refresh Page</title>
+</head>
+<body>
+  <h1>Hello, world!</h1>
+  <p>This page will auto-refresh whennn changes are madeeeeeeee.</p>
+  <p> see?</p>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io();
+    socket.on('refresh', () => {
+      location.reload();
+    });
+  </script>
+</body>
+</html>
