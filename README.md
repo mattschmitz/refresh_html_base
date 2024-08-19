@@ -1,7 +1,5 @@
 # refresh_html_base
 
-_TL;DR_ run `npx nodemon server.js` and navigate to localhost:3000 in your browser.
+I use this repo to test out vanilla HTML/CSS. Run `npx nodemon server.js` and navigate to localhost:3000 in your browser. Anytime you save a file in the repo the page will auto-refresh. I find this faster than online sandboxes and other methods (like [livejs script tags](https://stackoverflow.com/questions/5588658/auto-reload-browser-when-i-save-changes-to-html-file-in-chrome)).
 
-This is a repo that sets up a node server and auto refreshes an html page. It's a good place to start vanilla html/css dev and testing (like create-react-app but not react specific and lighter weight)
-
-Anytime you save a file, the browser page will automatically refresh. (This is faster than putting a `<script type="text/javascript" src="https://livejs.com/live.js"></script>` tag in the html as recommended by https://stackoverflow.com/questions/5588658/auto-reload-browser-when-i-save-changes-to-html-file-in-chrome)
+You could add React to this, but I'd recommend instead just using [Vite](https://github.com/vitejs/vite)
